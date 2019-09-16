@@ -7,8 +7,6 @@ date: "2019-09-13"
 author: "Bruno Agostini"
 ---
 
-# Learning Instana
-
 > Automatic Application and Infrastructure Monitoring
 
 Category: Performance Monitoring
