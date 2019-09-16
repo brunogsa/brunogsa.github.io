@@ -7,15 +7,17 @@ date: "2019-09-13"
 author: "Bruno Agostini"
 ---
 
+# Overview
+
 > Automatic Application and Infrastructure Monitoring
 
 Category: Performance Monitoring
 
-## Known Companies using it
+# Known Companies using it
 
 - None :(
 
-## Popular Alternatives
+# Popular Alternatives
 
 - Datadog
 - NewRelic
@@ -23,21 +25,21 @@ Category: Performance Monitoring
 Popularity Comparison:
 ![Popularity Comparison](http://i.imgur.com/Jgw26Kw.png "Popularity Comparison")
 
-## How it works
+# How it works
 
 - You need an configured environment to work with Instana: either on Cloud or On-Premise
 - Then, you need to install a [proper agent](https://docs.instana.io/quick_start/agent_setup/) onto every host of your system
 - Each agent will have one or more [sensors](https://docs.instana.io/quick_start/agent_sensors/)
 - Instana will automatically make the rest for you, so ensure it has administrative permissions
 
-### Agent Options
+# Agent Options
 
 - For Docker Containers, you must use an Instana Image as a base (`FROM instana/agent`)
 - It also integrates with Kubernetes
 - There're agents for Linux and Windows, and partial support for MacOS
 - There's a special agent for AWS environments
 
-## Relevant Sensors (Integrations)
+# Relevant Sensors (Integrations)
 
 - PHP
 - Node.js
@@ -70,7 +72,7 @@ Popularity Comparison:
 
 Some sensors may require you to install and integrate it into your application or service.
 
-## Infrastructure Monitoring
+# Infrastructure Monitoring
 
 > Infrastructure - physical, virtual, cloud, hybrid, containerized - is the underlying layer to provide the relevant resources and services for applications.
 
@@ -92,11 +94,11 @@ Zommed in Map:
 Zoomed in on Process Level:
 ![Zoomed in on Process Level](http://i.imgur.com/Jc6Mb9P.png "Zoomed in on Process Level")
 
-## Application Monitoring
+# Application Monitoring
 
 > Instana introduces the next generation of APM with its application hierarchy of services, endpoints, and application perspectives across them. Our main goal is to simplify the monitoring of your business’ service quality.
 
-### Application Perspectives
+## Application Perspectives
 
 > The term “application” is ambiguous, and different teams may use it to describe distinctly different things. Instead of applications, Instana provides application perspectives, in order to allow teams to capture the type of semantics that are meaningful to them.
 
@@ -119,13 +121,13 @@ Application Perspectives can be zoomed in as well:
 Creating an Application Perspective:
 ![Creating an Application Perspective](http://i.imgur.com/vMqLmHm.png "Creating an Application Perspective")
 
-### Services
+## Services
 
 > A service can be seen as a logical component that provides a public API to the rest of the system, in which the API is made up of its endpoints. 
 
 > Instana will automatically map services based on default rules. These rules examine call and infrastructure data and create a service as soon as it’s recognized. Additionally, teams can add a custom rules.
 
-## Website Monitoring
+# Website Monitoring
 
 > Website monitoring, often called End-User Monitoring (EUM) or Real-User Monitoring (RUM), is an important tool to understand digital user experience.
 
@@ -133,7 +135,7 @@ Creating an Application Perspective:
 
 It offers support for SSR and SPA websites, which can be analyzed through [Page Loads, Page Views and/or Transitions](https://docs.instana.io/products/website_monitoring/faq/#what-is-the-difference-between-page-views-loads-and-transitions).
 
-## Conclusion
+# Conclusion
 
 Instana is a young tool with great potencial.
 
