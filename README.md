@@ -55,7 +55,6 @@ Open `config.js` for templating variables. Broadly configuration is available fo
     - `helpUrl` - Help URL for pointing to resources
     - `tweetText` - Tweet text
     - `links` - Links on the top right
-    - `search` - Enable search and [configure Algolia](https://www.gatsbyjs.org/docs/adding-search-with-algolia/)
 
 - `sidebar` config for navigation links configuration
     - `forcedNavOrder` for left sidebar navigation order. It should be in the format "/<filename>"

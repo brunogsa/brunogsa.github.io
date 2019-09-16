@@ -1,26 +1,18 @@
 const config = {
   "gatsby": {
     "pathPrefix": "/",
-    "siteUrl": "https://learn.hasura.io",
-    "gaTrackingId": null
+    "siteUrl": "https://brunogsa.github.io",
+    "gaTrackingId": "UA-148105061-1"
   },
   "header": {
-    "logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-    "logoLink": "https://learn.hasura.io",
-    "title": "Gatsby Gitbook Boilerplate",
+    "logo": "https://media.licdn.com/dms/image/C4D03AQHPCfAUuybG6w/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=3jB6ytR6s-mISC2jVh8sGrMJmpRG3ipvzRhGCnWQYdk",
+    "logoLink": "https://twitter.com/brunogsa92",
+    "title": "Posts & Notes",
     "githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
-    "helpUrl": "",
-    "tweetText": "",
     "links": [
-      { "text": "", "link": ""}
-    ],
-    "search": {
-      "enabled": false,
-      "indexName": "",
-      "algoliaAppId": process.env.GATSBY_ALGOLIA_APP_ID,
-      "algoliaSearchKey": process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-      "algoliaAdminKey": process.env.ALGOLIA_ADMIN_KEY
-    }
+      { "text": "Powered by Gatsby", "link": "https://www.gatsbyjs.org"},
+      { "text": "Boilerplate by Hasura", "link": "https://hasura.io"},
+    ]
   },
   "sidebar": {
     "forcedNavOrder": [
@@ -28,17 +20,15 @@ const config = {
       "/codeblock"
     ],
     "links": [
-      { "text": "Hasura", "link": "https://hasura.io"},
+      { "text": "", "link": "" },
     ],
     "frontline": false,
-    "ignoreIndex": true,
+    "ignoreIndex": false,
   },
   "siteMetadata": {
-    "title": "Gatsby Gitbook Boilerplate | Hasura",
-    "description": "Documentation built with mdx. Powering learn.hasura.io ",
-    "ogImage": null,
-    "docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
-    "favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+    "title": "Posts & Notes | Bruno Agostini",
+    "description": "My personal posts and notes",
+    "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPht0cwBXCXvNx4xC2cWKBzzzcWulfST-tWUAXILlofVvxwcp-"
   },
 };
 

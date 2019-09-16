@@ -76,7 +76,7 @@ export default class MDXRuntimeTest extends Component {
       allMdx,
       mdx,
       site: {
-        siteMetadata: { docsLocation, title }
+        siteMetadata: { title }
       }
     } = data;
     const gitHub = require('../components/images/github.svg');
@@ -140,11 +140,6 @@ export default class MDXRuntimeTest extends Component {
           <h1 className={'title'}>
             {mdx.fields.title}
           </h1>
-          <Edit className={'mobileView'}>
-            <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
-              <img src={gitHub} alt={'Github logo'} /> Edit on GitHub
-            </Link>
-          </Edit>
         </div>
         <div className={'mainWrapper'}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
@@ -162,7 +157,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        docsLocation
       }
     }
     mdx(fields: { id: { eq: $id } }) {

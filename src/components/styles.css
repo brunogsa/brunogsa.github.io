@@ -84,27 +84,6 @@ body {
 .formElement svg path {
   fill: #fff;
 }
-.searchInput {
-  width: calc(100% - 26px);
-  background-color: transparent !important;
-  border-width: 0 !important;
-  color: rgba(255, 255, 255, 0.5);
-}
-.searchInput:focus, .searchInput:visited, .searchInput:hover, .searchInput:focus-within {
-  outline: none;
-  border: 0;
-}
-.searchWrapper
-{
-  padding-left: 0px;
-  padding-right: 20px;
-  flex: 1;
-  max-width: 600px;
-  position: relative;
-}
-.searchWrapper a {
-  font-weight: 500;
-}
 .hitWrapper
 {
   background-color: #fff;
@@ -582,7 +561,14 @@ margin-bottom: 0; }
 
 /* Image styling */
 img {
+  width: 100%;
   max-width: 100%;
+
+  border: 1px solid lightgray;
+  border-radius: 4px;
+
+  padding: 4px;
+  margin-top: 4px;
 }
 /* end image */
 .githubBtn {
@@ -715,10 +701,6 @@ img {
     text-align: left !important;
     padding-left: 0 !important;
   }
-  .searchWrapper {
-    padding: 10px 0;
-    padding-top: 20px;
-  }
   .hitWrapper {
     width: 100%;
     right: 0;
@@ -754,9 +736,6 @@ img {
   }
   .navBarUL li a {
     padding: 10px 5px;
-  }
-  .searchWrapper {
-    padding-left: 0px;
   }
   .navBarCollapse {
     display: flex !important;
