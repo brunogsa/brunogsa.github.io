@@ -1,1 +1,1 @@
-{"data":{"allMdx":{"edges":[{"node":{"fields":{"slug":"/","title":"Landing Page"}}},{"node":{"fields":{"slug":"/notes","title":"Notes Page"}}},{"node":{"fields":{"slug":"/posts","title":"Posts Page"}}},{"node":{"fields":{"slug":"/notes/instana-introduction","title":"Introduction to Instana"}}}]}}}
+{"data":{"allMdx":{"edges":[{"node":{"fields":{"slug":"/","title":"About the Author"}}},{"node":{"fields":{"slug":"/instana-introduction","title":"Introduction to Instana"}}}]}}}

@@ -1,1 +1,1 @@
-{"data":{"site":{"siteMetadata":{"headerTitle":"Gatsby Gitbook Boilerplate","githubUrl":"https://github.com/hasura/gatsby-gitbook-boilerplate","helpUrl":"","tweetText":"","logo":{"link":"https://learn.hasura.io","image":"https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png"},"headerLinks":[{"link":"","text":""}]}}}}
+{"errors":[{"message":"Cannot query field \"helpUrl\" on type \"SiteSiteMetadata\".","locations":[{"line":6,"column":7}]},{"message":"Cannot query field \"tweetText\" on type \"SiteSiteMetadata\".","locations":[{"line":7,"column":7}]}]}
