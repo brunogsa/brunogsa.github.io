@@ -163,7 +163,9 @@ Your databases and some APIs will be under this section.
 
 ## Website Monitoring
 
-> Instana supports website monitoring by analyzing actual browser request times and route loading times. This allows detailed insights into the web browsing experience of end-users, as well as deep visibility into application call paths. The Instana website monitoring solution works by means of a lightweight JavaScript agent which is embedded into the monitored website.
+> Instana supports website monitoring by analyzing actual browser request times and route loading times. This allows detailed insights into the web browsing experience of end-users, as well as deep visibility into application call paths.
+> 
+> The Instana website monitoring solution works by means of a lightweight JavaScript agent which is embedded into the monitored website.
 
 It offers support for both SSR and SPA websites, which can be analyzed through [Page Loads, Page Views and/or Transitions](https://docs.instana.io/products/website_monitoring/faq/#what-is-the-difference-between-page-views-loads-and-transitions).
 
