@@ -74,6 +74,31 @@ Popularity Comparison on StackShare:
 
 Some sensors may require you to install or integrate some package into your application.
 
+## Features
+
+- Automatic Discovery of Zones, Hosts, Clusters, Containers, DBs, APIs, Endpoints, Processes and other services
+- Support for defining your own abstraction, throught Application Perspectives
+- Performance metrics gathering
+- Real-time graph of the interconnections of your discovered infrastructure, services and perspectives
+- Tracing and Callstacks
+- Capturing of Error Responses and logs of level WARN and ERROR
+- Issues and Incidents reporter, powered by AI
+- Configurable Alerts
+- Release Markers*
+- Gathered data is extendable throught its SDK or RESTful API
+
+Data is [generally*](https://docs.instana.io/core_concepts/data_collection/) stored for 7 days, after that retention strategy only retains statistically significant traces and calls.
+
+### Release Markers
+
+Instana has an amazing feature that points in your graphs when other pieces of your system has been released.
+
+![Release Markers](https://i.imgur.com/IzAEQq1.png "Release Markers")
+
+The image above might be saying that a release is impacting the CPU of another Service.
+
+To enable it, engineers must inform instana about the release events, or use the provided Jenkins plugin for a more automatic and out of the box solution.
+
 ## Infrastructure Monitoring
 
 > Infrastructure - physical, virtual, cloud, hybrid, containerized - is the underlying layer to provide the relevant resources and services for applications.
@@ -140,16 +165,6 @@ And their resources, like CPU, RAM, I/O and so on:
 
 The more agents you install, the more info you'll have access to.
 
-### Release Markers
-
-Instana has an amazing feature that points in your graphs when other pieces of your system has been released.
-
-![Release Markers](https://i.imgur.com/IzAEQq1.png "Release Markers")
-
-The image above might be saying that a release is impacting the CPU of another Service.
-
-To enable it, engineers must inform instana about the release events, or use the provided Jenkins plugin for a more automatic and out of the box solution.
-
 ### Services
 
 As defined on Instana docs:
@@ -173,12 +188,13 @@ It offers support for both SSR and SPA websites, which can be analyzed through [
 
 Instana is a young tool with great potencial.
 
-It offers lots of insights with minimum integration efforts through beatiful visualizations, covering your infrastructure, APIs and websites.
+It offers lots of insights with minimum integration efforts through beatiful visualizations, covering almost the entire infrastructure e application layers.
 
-It may be really useful to integrate in legacy systems to have a better view how it's working.
+It may be specially useful to integrate in legacy systems to have a better view how it's working in a more automatic way.
 
 ## Related Links
 
 - https://docs.instana.io
+- https://opentracing.io/docs/overview/
 - https://www.instana.com/blog/instana-pipeline-feedback/
 - https://stackshare.io/instana
